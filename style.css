@@ -1,0 +1,168 @@
+
+header {
+  background-color: #FFFFFF;
+  position: fixed; /*que tu menu aparezca siempre en pantalla*/
+  top: 0;
+}
+
+
+div.logo img{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 35px;
+  top:20px;
+}
+
+div.menu {
+  display: inline-block; /*se comporta como elemento en lina y en bloque*/
+  margin-top:80px; 
+  margin-left: 90px;}
+
+h6{
+  font-family:'Exo 2', sans-serif;
+  font-size: 15px;
+  color:#000000;
+  position: absolute;
+  left:980px;
+  z-index: 1;
+  top: -16px;
+}
+
+div.rayas img{
+  position: absolute;
+  height: 19px;
+  width: 15px;
+  left: 1100px;
+  top:20px;
+  z-index: 1; 
+  } /*no se me ve :C*/
+
+
+div.equiz img{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 950px;
+  top:20px;
+  z-index: 1;
+}
+
+div.persona img{
+  position: absolute;
+  height: 21px;
+  width: 15px;
+  left: 1100px;
+  top:20px;
+  z-index: 1;
+}
+
+div.lupa img{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 150px;
+  top:30px;
+}
+
+/*Buscador*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: absolute;
+  right:300px;
+  top:-295px;
+
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid;
+  background:;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr{
+  position: absolute;
+  margin-left: 0px;
+  width: 1300px;
+  color:#801818;
+  top:60px;
+  
+}
+
+/*Menu*/
+
+div.menu p{
+  position: relative;
+  bottom: 50px; 
+  color:white;
+  text-align: right;
+  font-family:'Exo 2', sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+div.menu img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 250px;
+    max-height: 100%;
+    position: relative;
+    opacity: 0.5;
+    border-radius: 10%;}
+
+div.menu img:hover{
+  opacity: 1;
+}
+
+
+/*IMAGENES*/
+
+div.imagen {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 10px;
+  background-color: black;}
+
+
